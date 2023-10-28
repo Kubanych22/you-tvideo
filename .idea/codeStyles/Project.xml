@@ -7,6 +7,7 @@
     <HTMLCodeStyleSettings>
       <option name="HTML_UNIFORM_INDENT" value="true" />
       <option name="HTML_ELEMENTS_TO_INSERT_NEW_LINE_BEFORE" value="body,div,p,form,h1,h2,h3,a" />
+      <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="html,thead,tbody,tfoot" />
       <option name="HTML_DONT_ADD_BREAKS_IF_INLINE_CONTENT" value="title,h1,h2,h3,h4,h5,h6" />
     </HTMLCodeStyleSettings>
     <JSCodeStyleSettings version="0">
