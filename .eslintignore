@@ -1,0 +1,7 @@
+git
+idea
+vscode
+node_modules
+gulpfile.js
+/gulp/tasks/*.js
+/gulp/*.js

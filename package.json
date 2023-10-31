@@ -1,0 +1,8 @@
+{
+  "name": "you-tvideo",
+  "version": "1.0.0",
+  "dependencies": {
+    "browser-sync": "^2.29.3",
+    "gulp": "^4.0.2"
+  }
+}

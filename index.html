@@ -4,10 +4,14 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="shortcut icon" href="Google_Chrome.ico" type="image/x-icon">
+  
   <title>You-Tvideo Удобный видеохостинг для тебя</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/index.css">
-  
+
+  <script defer src="js/navigo.min.js" type="module"></script>
   <script defer src="js/index.js"></script>
 </head>
 <body>
@@ -15,7 +19,7 @@
   <section class="hero">
     <div class="container">
       <div class="hero__container">
-        <a class="hero__link" href="./favorite.html">
+        <a class="hero__link" href="/favorite.html">
           <span class="hero__link-text">Избранное</span>
           <svg class="hero__icon">
             <use xlink:href="image/sprite.svg#star-ow"></use>
@@ -35,7 +39,7 @@
   <section class="search">
     <div class="container">
       <form class="search__form">
-        <input class="search__input" type="search" placeholder="Найти видео...">
+        <input class="search__input" type="search" name="search" placeholder="Найти видео...">
         <button class="search__btn" type="submit">
           <span>поиск</span>
           <svg class="search__icon">

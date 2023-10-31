@@ -327,7 +327,9 @@ iframe {
 
 .video__content {
   max-width: 1048px;
-  /*align-self: start;*/
+  width: 100%;
+  hyphens: auto;
+  overflow-wrap: anywhere;
 }
 
 .video__title {
@@ -435,6 +437,18 @@ iframe {
 .footer__copyright {
   grid-column: 2 / 3;
 }
+
+.preload {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  margin: auto;
+}
+
+.preload__text {
+  color: #ff6a00;
+}
+
 
 @media (width <= 1024px) {
   .container {
